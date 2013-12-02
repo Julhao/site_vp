@@ -1,0 +1,60 @@
+body{
+	background: #fff;
+}
+.interna_destaque{width:780px; float:left;}
+
+.header_internas{width:780px; height:52px; margin-top:30px; float:left; background: #eef2f4;}
+.header_internas h1{font: 20px Arial Rounded MT bold; color:#bd1e23; float:left; margin-top:14px;}
+.header_internas h1 img{float:left; margin:0 10px 0 15px;}
+.header_internas ul{float:right;}
+.header_internas li{float:left; margin:17px 20px 0 0; font:14px Trebuchet MS;}
+.header_internas li a{ color:#bd1e23; text-decoration:none; display:block;}
+.header_internas li a:hover{ color:#bd1e23; text-decoration:underline; display:block;}
+.header_internas li a.link_add{ background: url(../img/link_add.jpg) no-repeat 0 3px; text-indent:17px;}
+.header_internas li a.link_enviar{ background: url(../img/link_enviar.jpg) no-repeat 0 3px; text-indent:25px;}
+.header_internas li a.link_amigo{  background: url(../img/link_amigo.jpg) no-repeat 0 3px; text-indent:20px;}
+
+.conteudo_internas{padding-left:15px; width:765px; float:left; }
+
+.social{margin-top:10px; width:400px; float:left;}
+
+.conteudo_right{float:left; width:365px;}
+.conteudo_right h2{font: 24px Arial Rounded MT bold; color:#bd1e23; margin-top:10px; margin-left:15px;}
+.conteudo_right ul{width:167px; float:left;  margin-left:15px;margin-top:10px;}
+.conteudo_right li{ font:14px Trebuchet MS; color:#65778c; }
+.conteudo_right li span{color:#bd1e23;}
+
+.box_detalhe{width:349px; float:left;  margin:5px 0 0 15px;}
+.box_detalhe div{border:2px solid #fff; height:104px; overflow: auto; background:#f8f8f9; -webkit-box-shadow: #bfbfbf 0px 0 1px; -moz-box-shadow: #bfbfbf 0px 0 1px; box-shadow: #bfbfbf 0px 0 1px;}
+.box_detalhe h3{font: 16px Arial Rounded MT bold; padding:3px 0; color:#bd1e23; background: #eef2f4; text-indent:1em;}
+.box_detalhe p{font:12px Trebuchet MS; padding:3px 0; color:#65778c; margin-left:8px; }
+
+.conteudo_right .span_proprietario{font:20px/20px Trebuchet MS; color:#65778c;float:left; width:90%; margin:10px 0 0 15px;}
+.conteudo_right .span_cidade{font:14px/14px Trebuchet MS; color:#65778c; float:left; width:90%; margin:5px 0 0 15px;}
+.conteudo_right .small_telefone{ background: url("../img/icone_tel.jpg") no-repeat scroll 0 0 transparent; color: #BD1E23; display: block; float: left; font: 18px Arial Rounded MT bold;height: 21px; margin: 15px 0 0 15px; text-indent: 38px; width: 90%;}
+
+.footer_internas{width:780px; height:84px; margin-top:30px; float:left; background: #eef2f4;}
+
+.sidebar_interna{width:220px; float:left; margin:30px 0 0 15px;}
+.sidebar_interna h2 {font: 24px/14px Arial Rounded MT bold; color:#bd1e23; margin-top:20px;width:158px; float:left;}
+.sidebar_interna h3 {font: 16px Arial Rounded MT bold; color:#bd1e23; margin-top:20px;width:100%; float:left;}
+.sidebar_interna a {font: 12px  Trebuchet MS; color:#65778c; text-decoration:none;}
+
+.logo_pg_internas{float:right; margin-top:18px;}
+
+.mais_ofertas {margin-top:10px; float:left; width:100%;}
+.mais_ofertas img{border:2px solid #fff; float:left; position:relative;
+-webkit-box-shadow: 1px 1px 3px #CDCDCE; -moz-box-shadow: 1px 1px 3px #CDCDCE; box-shadow: 1px 1px 3px #CDCDCE;}
+.mais_ofertas ul{width:100px; float:left; margin-left:9px;}
+.mais_ofertas li{font:12px/16px Trebuchet MS; color:#65778c;}
+.mais_ofertas li span{ color:#ed1c24;}
+.mais_ofertas li strong{ color:#ed1c24;}
+
+ul.carros_categoria{width:100%; float:left; margin-top:10px;}
+ul.carros_categoria li{font:14px/20px Trebuchet MS; width:210px; color:#65778c; float: left; padding: 5px 0 5px 10px;}
+ul.carros_categoria li span{ color:#ed1c24;}
+ul.carros_categoria li strong{ color:#ed1c24;}
+
+.carros_usados{color:#bd1e23 !important; text-decoration:none; font: 12px Arial Rounded MT bold !important; float:right; margin-top:-5px;}
+
+.bg_cinza{background:#eef2f4;}

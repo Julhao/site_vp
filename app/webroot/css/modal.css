@@ -1,0 +1,51 @@
+#mask {
+  position:fixed;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:700px;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+
+#boxes #dialog {
+  width:700px; 
+  padding:18px 10px 10px;
+  background-color:#ffffff;
+  top:100px !important;
+}
+
+.container{position:relative; width:100%; float:left;}
+
+#boxes #dialog span.aba_left{ background: url("../img/aba-modal-left.png") no-repeat scroll 0 0 transparent; height: 60px; left: -20px; top: -19px; position: absolute; width: 11px;}
+#boxes #dialog span.aba_right{ background: url("../img/aba-modal-right.png") no-repeat scroll -1px 0 transparent; height: 60px; right: -21px; position: absolute; top: -19px; width: 11px;}
+#boxes #dialog h1{background: url("../img/bg_tab-hover.jpg") repeat-x scroll 0 0 transparent; float:left; width:100%; font:18px Arial Rounded MT; height:33px; padding:7px 10px 0; color:#fff; margin-left:-10px;}
+
+h1 .close{ color: #FFFFFF; float: right; font-size: 25px; margin-right: 10px; margin-top: -2px; text-decoration: none;}
+
+/* --- form modal --- */
+
+.form-modal{width:100%; float:left; margin-top:20px;}
+.form-modal label{width:100%; float:left; font: 13px Trebuchet MS; color:#65778C;}
+.form-modal select{ background: none repeat scroll 0 0 #E9EEF0; border: 1px solid #C2D1D7; margin-top:5px; border-radius: 4px 4px 4px 4px; box-shadow: 1px 0 0 #FFFFFF, 2px 0 5px #E0E7EB inset; color: #65778C;font: 14px Trebuchet MS; padding: 3px; position: relative; width: 50%;}
+.form-modal input{ background: none repeat scroll 0 0 #E9EEF0; border: 1px solid #C2D1D7; margin-top:5px; border-radius: 4px 4px 4px 4px; box-shadow: 1px 0 0 #FFFFFF, 2px 0 5px #E0E7EB inset; color: #65778C;font: 14px Trebuchet MS; padding: 3px; position: relative; width: 48%;}
+.form-modal textarea{ background: none repeat scroll 0 0 #E9EEF0; border: 1px solid #C2D1D7; border-radius: 4px 4px 4px 4px; box-shadow: 1px 0 0 #FFFFFF, 2px 0 5px #E0E7EB inset; color: #65778C; font: 14px Trebuchet MS; height: 81px; padding: 3px; position: relative; width:99%;}
+
+.todo-espaco li{width:100%; float:left;}
+.metade-espaco li{width:50%; height:60px; float:left;}
+
+.bt-form{float:left; width:99%; margin-top:20px;}
+.bt-form div{float:right; }
+
+.bt-form a.voltar{ background: url("../img/bt-voltar.png") repeat scroll 0 0 transparent; display: block; height: 31px; text-indent: -99999em; width: 110px; float:left;}
+.bt-form a.continuar{ background: url("../img/bt-continuar.png") repeat scroll 0 0 transparent; display: block; height: 31px; text-indent: -99999em; width: 110px; float:left; margin-left:15px;}
+.bt-form a.cancelar{ background: url("../img/bt-cancelar.png") repeat scroll 0 0 transparent; display: block; height: 30px; text-indent: -99999em; width: 110px; float:left; margin-left:15px;}
